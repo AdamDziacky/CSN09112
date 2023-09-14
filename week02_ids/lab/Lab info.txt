@@ -1,0 +1,16 @@
+10.10.38.0/24 - PRIVATE (ubuntu)
+10.10.39.0/24 - DMZ (Meta, Kali, Windows7) 
+
+Lab setup (eth9– Public, eth10 – Private, eth11 – DMZ) Note: You may also get eth0 (Public), eth1 (Private) and eth2 (DMZ)
+
+Public (Kali DHCP)
+
+Vyatta: User: vyos, Password: vyos
+	
+Windows 7: User: Administrator, Password: napier123
+	
+Ubuntu: User: root, password: napier123
+	
+Kali: User: root, password: toor
+
+Default gateway for Internet: 10.221.3.254/22
